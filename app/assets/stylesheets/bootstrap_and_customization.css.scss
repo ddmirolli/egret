@@ -1,5 +1,34 @@
-$body-bg:   #ecf0f1;
-$navbar-inverse-bg: #27ae60;
-$navbar-inverse-link-color: #ecf0f1;
-$jumbotron-bg: #27ae60;
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+$font-family-sans-serif:  'Merriweather', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:   45px;
+
+
+$body-bg:   													#ecf0f1;
+$jumbotron-color: 										#7f8c8d; 
+$jumbotron-padding:										30px;
+$navbar-default-bg: 									white;
+$navbar-default-link-color: 					#27ae60;
+$navbar-defaul-link-hover-bg: 				#27ae60;
+$navbar-default-brand-color: 					#27ae60;
+$navbar-default-brand-hover-bg: 			#27ae60;
+$brand-primary:												#27ae60;
+$jumbotron-bg: 												white;
+
+$btn-default-bg: 											#27ae60;
+$btn-default-color: 									white;
+$btn-default-border: 									#7f8c8d;
+
+$btn-primary-bg: 											white;
+$btn-primary-color: 									#27ae60;
+$btn-primary-border: 									#7f8c8d;
+
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
