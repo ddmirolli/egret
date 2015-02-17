@@ -6,12 +6,13 @@ $navbar-height:   45px;
 
 $body-bg:   													#ecf0f1;
 $jumbotron-color: 										#7f8c8d; 
-$jumbotron-padding:										30px;
 $navbar-default-bg: 									white;
 $navbar-default-link-color: 					#27ae60;
 $navbar-defaul-link-hover-bg: 				#27ae60;
+$navbar-defaul-link-hover-color:			white;
 $navbar-default-brand-color: 					#27ae60;
 $navbar-default-brand-hover-bg: 			#27ae60;
+$navbar-default-brand-hover-color: 		white;
 $brand-primary:												#27ae60;
 $jumbotron-bg: 												white;
 
@@ -27,8 +28,4 @@ $btn-primary-border: 									#7f8c8d;
 
 .center {
      text-align: center;
-}
-
-.navbar-brand {
-     font-weight: bold;
 }
