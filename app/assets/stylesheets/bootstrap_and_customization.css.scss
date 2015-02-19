@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
-$font-family-sans-serif:  'Merriweather', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  Merriweather, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:   45px;
 
 
@@ -8,21 +8,21 @@ $body-bg:   													#ecf0f1;
 $jumbotron-color: 										#7f8c8d; 
 $navbar-default-bg: 									white;
 $navbar-default-link-color: 					#27ae60;
-$navbar-defaul-link-hover-bg: 				#27ae60;
-$navbar-defaul-link-hover-color:			white;
+$navbar-default-link-hover-bg: 				#27ae60;
+$navbar-default-link-hover-color:			white;
 $navbar-default-brand-color: 					#27ae60;
 $navbar-default-brand-hover-bg: 			#27ae60;
 $navbar-default-brand-hover-color: 		white;
 $brand-primary:												#27ae60;
 $jumbotron-bg: 												white;
 
-$btn-default-bg: 											#27ae60;
-$btn-default-color: 									white;
-$btn-default-border: 									#7f8c8d;
-
-$btn-primary-bg: 											white;
-$btn-primary-color: 									#27ae60;
+$btn-primary-bg: 											#27ae60;
+$btn-primary-color: 									white;
 $btn-primary-border: 									#7f8c8d;
+
+$btn-default-bg: 											white;
+$btn-default-color: 									#27ae60;
+$btn-default-border: 									#7f8c8d;
 
 @import 'bootstrap';
 
