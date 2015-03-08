@@ -1,5 +1,6 @@
-<p id="notice"><%= notice %></p>
+<%= image_tag @pin.image.url(:medium) %>
 <% if @pin.user == current_user %>
+
 <p>
   <strong>Description:</strong>
   <%= @pin.description %>
