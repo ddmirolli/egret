@@ -1,0 +1,61 @@
+Searching 222 files for "Sign in"
+
+/Users/Home/Desktop/egret/app/views/devise/sessions/new.html.erb:
+    2    <div class="panel-heading">
+    3      <div class="panel-title">
+    4: 			<h1>Log in</h1>
+    5  		</div>
+    6  	</div>
+    .
+   26  
+   27        <div class="form-group">
+   28:         <%= f.submit "Log in", class: "btn btn-primary" %>
+   29        </div>
+   30      <% end %>
+
+/Users/Home/Desktop/egret/app/views/devise/shared/_links.erb:
+    1  <%- if controller_name != 'sessions' %>
+    2:   <%= link_to "Log in", new_session_path(resource_name) %><br />
+    3  <% end -%>
+    4  
+    .
+   21  <%- if devise_mapping.omniauthable? %>
+   22    <%- resource_class.omniauth_providers.each do |provider| %>
+   23:     <%= link_to "Log in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+   24    <% end -%>
+   25  <% end -%>
+
+/Users/Home/Desktop/egret/config/initializers/devise.rb:
+   85    # By default, Devise cleans up the CSRF token on authentication to
+   86    # avoid CSRF token fixation attacks. This means that, when using AJAX
+   87:   # requests for sign in and sign up, you need to get a new CSRF token
+   88    # from the server. You can disable this option at your own risk.
+   89    # config.clean_up_csrf_token_on_authentication = true
+   ..
+  156    # ==> Configuration for :lockable
+  157    # Defines which strategy will be used to lock an account.
+  158:   # :failed_attempts = Locks an account after a number of failed attempts to sign in.
+  159    # :none            = No lock strategy. You should handle locking by yourself.
+  160    # config.lock_strategy = :failed_attempts
+  ...
+  217    # ==> Navigation configuration
+  218    # Lists the formats that should be treated as navigational. Formats like
+  219:   # :html, should redirect to the sign in page when the user does not have
+  220    # access, but formats like :xml or :json, should return 401.
+  221    #
+
+/Users/Home/Desktop/egret/config/locales/devise.en.yml:
+   15        locked: "Your account is locked."
+   16        not_found_in_database: "Invalid email or password."
+   17:       timeout: "Your session expired. Please log in again to continue."
+   18:       unauthenticated: "You need to log in or sign up before continuing."
+   19        unconfirmed: "You have to confirm your account before continuing."
+   20      mailer:
+   ..
+   48        send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+   49        send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+   50:       unlocked: "Your account has been unlocked successfully. Please log in to continue."
+   51    errors:
+   52      messages:
+
+10 matches across 4 files
