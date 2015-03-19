@@ -24,6 +24,7 @@ $btn-default-bg: 											white;
 $btn-default-color: 									#27ae60;
 $btn-default-border: 									#7f8c8d;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
